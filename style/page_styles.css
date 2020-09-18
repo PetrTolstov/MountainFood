@@ -1,0 +1,76 @@
+
+a, abbr, address, article, aside, audio, b, blockquote, body, canvas, caption, cite, code, dd, del, details, dfn, div, dl, dt, em, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, u, ul, var, video{
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Oxygen";  /* задаем произвольное имя для шрифта, которое будет использоваться в свойстве font-family при указании стилей для конкретных элементов */
+    src: url("../Fonts/Oxygen-Regular.ttf") format('truetype');  /* задаем путь к шрифту (url) и тип шрифта (format) */
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Oxygen";  /* задаем произвольное имя для шрифта, которое будет использоваться в свойстве font-family при указании стилей для конкретных элементов */
+    src: url("../Fonts/Oxygen-Bold.ttf") format('truetype');  /* задаем путь к шрифту (url) и тип шрифта (format) */
+    font-style: normal;
+    font-weight: Bold;
+}
+
+@font-face {
+    font-family: "Oxygen";  /* задаем произвольное имя для шрифта, которое будет использоваться в свойстве font-family при указании стилей для конкретных элементов */
+    src: url("../Fonts/Oxygen-Light.ttf") format('truetype');  /* задаем путь к шрифту (url) и тип шрифта (format) */
+    font-style: normal;
+    font-weight: initial;
+}
+
+:root{
+    background: url("background.jpg") 50% 50%;
+    background-color: #586eb3;
+    background-size: 500px 100px;
+    background-origin: padding-box;
+    background-attachment: fixed;
+
+
+
+}
+
+header a{
+    font-family: "Oxygen", serif;
+    font-weight: bold;
+    display: inline-block;
+    padding: 2vmin 4vmin;
+    color: black;
+    text-decoration: none;
+    font-size: 2vmin;
+}
+
+li {
+    display: inline;
+
+}
+
+header ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    width: 100vw;
+    height: 8vmin;
+    background-color: #8a9ccd;
+}
+
+header a:hover{
+    background-color: #586eb3;
+}
+
+
+div#main {
+    height: 100%;
+    background-color: rgba(208,208,208,0.8);
+    margin: 0 10vw;
+}
+
+
